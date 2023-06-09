@@ -16,3 +16,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.button-search {
+    border: 1px solid #cfd9de;
+    color: #0f1419;
+    font-weight: bold;
+}
