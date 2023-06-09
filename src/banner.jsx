@@ -3,7 +3,7 @@ import fft from './assets/fftp.png';
 
 export default function MainBanner() {
     return (
-        <div>
+        <div className="flex flex-col">
         <img src={fft} alt=""  className='mt-auto'/>
         <input type="text"  className='bg-white text-black'/>
         </div>

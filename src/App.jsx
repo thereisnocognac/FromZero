@@ -7,7 +7,9 @@ import MainBanner from './banner'
 
 function App() {
   return (
+    <div>
     <MainBanner />
+    </div>
   )
 }
 
