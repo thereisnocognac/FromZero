@@ -7,7 +7,7 @@ import MainBanner from './banner'
 
 function App() {
   return (
-    <div className='flex flex-col justify-center content-center'>
+    <div>
     <MainBanner />
     </div>
   )
