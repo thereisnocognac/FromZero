@@ -7,7 +7,7 @@ import MainBanner from './banner'
 
 function App() {
   return (
-    <div>
+    <div className='block'>
     <MainBanner />
     </div>
   )
