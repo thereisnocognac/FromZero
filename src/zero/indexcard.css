@@ -13,4 +13,5 @@ body {
 .card-wrapper {
     border: 1px dotted blue;
     padding: 20px;
+    display: flex;
 }
