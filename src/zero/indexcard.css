@@ -9,3 +9,8 @@ body {
 .main-logo {
     width: 70%;
 }
+
+.card-wrapper {
+    border: 1px dotted blue;
+    padding: 20px;
+}
