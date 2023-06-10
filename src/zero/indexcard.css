@@ -18,8 +18,10 @@ body {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .utility-border {
     border: 1px dotted blue;
 }
+
