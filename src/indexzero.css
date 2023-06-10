@@ -1,5 +1,6 @@
 .main {
     margin-top: 100px;
+    text-align: center;
 }
 
 .logo-img {
@@ -25,19 +26,17 @@
 }
 
 .button-search {
-    display: block;
     border: 1px solid #cfd9de;
     color: #0f1419;
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     border: none;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 5px;
     margin-top: 10px;
     background: #dfe1e5;
 }
+
