@@ -7,13 +7,17 @@ body {
 }
 
 .main-logo {
-    width: 70%;
+    width: 150px;
 }
 
 .card-wrapper {
     border: 1px dotted blue;
     padding: 20px;
     display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .utility-border {
