@@ -6,8 +6,20 @@ body {
     color: white;
 }
 
-button {
+.btn {
     padding: 10px;
     border: none;
     border-radius: 10px;
+}
+
+#main-logo {
+    width: 200px;
+}
+
+.img-wrapper {
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.underline {
+   text-decoration: underline;
 }
