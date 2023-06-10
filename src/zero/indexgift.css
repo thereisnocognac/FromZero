@@ -1,8 +1,11 @@
 body {
     text-align: center;
+    background: #2F2C32;
+    color: #BDC1D3;
 }
 
 .img-light {
     width: 200px;
     border-radius:50%;
+    border: 1px solid #BDC1D3;
 }
