@@ -39,7 +39,11 @@ body {
 }
 
 #window-light {
-    width: 400px;
+    width: 350px;
+    height: 400px;
+    border: 1px solid white;
+    background-image: url('../assets/window.jpg');
+    background-size: cover;
 }
 
 #window-name {
