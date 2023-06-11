@@ -34,6 +34,20 @@ body {
     border-radius: 5px;
 }
 
+.window-wrapper {
+    margin-top: 50px;
+}
+
 #window-light {
     width: 400px;
 }
+
+#window-name {
+    margin-bottom: 0;
+}
+
+#window-two {
+    margin-top: 0;
+}
+
+
