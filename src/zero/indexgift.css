@@ -33,3 +33,7 @@ body {
     padding: 10px 10px;
     border-radius: 5px;
 }
+
+#window-light {
+    width: 400px;
+}
