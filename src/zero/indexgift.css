@@ -46,6 +46,10 @@ body {
     background-size: cover;
 }
 
+#window-light:hover {
+    background-image: url('../assets/water1.jpg');
+}
+
 #window-name {
     margin-bottom: 0;
 }
