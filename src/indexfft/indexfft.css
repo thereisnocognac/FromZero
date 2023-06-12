@@ -1,8 +1,8 @@
 body {
     height: 100vh;
     font-size: 16px;
+    font-family: 'Kanit', sans-serif;
 }
-
 
 * {
     margin: 0;
@@ -15,6 +15,12 @@ body {
     box-shadow: inset 0 0 5em 1em #000;
     background-image: url('map.webp');
     background-size: cover;
+    font-size: 1.3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #D9C9A1;
+    text-shadow: 3px 3px 1px black;
 }
 
 .hero-wrapper h1 {
