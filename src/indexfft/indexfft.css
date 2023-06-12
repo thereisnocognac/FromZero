@@ -45,7 +45,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     padding: 1.3rem;
     background: #D9C9A1;
+    margin-bottom: 15%;
+    border-bottom: 5px solid #6A5F35;
+    border-radius: 10%;
 }
