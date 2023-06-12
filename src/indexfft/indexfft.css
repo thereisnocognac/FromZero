@@ -33,7 +33,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
+    padding-top: 10%;
+    background: #8B712D;
 }
 
 .banner-items{
