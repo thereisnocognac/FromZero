@@ -28,3 +28,18 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    padding: 1.3rem;
+    background: #D9C9A1;
+}
