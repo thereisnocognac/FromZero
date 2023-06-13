@@ -17,7 +17,7 @@ btnHandle.addEventListener("click", function() {
 function renderLeads() {
     let listItems = '';
     for (let i = 0; i < myLeads.length; i++) {
-        listItems += "<a href='https://google.com' target='_blank'><li>" + myLeads[i] + "</li></a>";
+        listItems += "<li><a href=' " + myLeads[i] + "'>" + myLeads[i] + "</li></a>";
     }
     ulEl.innerHTML = listItems;
 }
