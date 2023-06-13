@@ -10,9 +10,13 @@ let listItems = '';
 btnHandle.addEventListener("click", function() {
     myLeads.push(inputEl.value);
     console.log(myLeads)
+    renderLeads()
 });
 
-for (let i = 0; i < myLeads.length; i++) {
-    listItems += "<li>" + myLeads[i] + "</li>";
+
+function renderLeads() {
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += "<li>" + myLeads[i] + "</li>";
+    }
+    ulEl.innerHTML = listItems;
 }
-ulEl.innerHTML = listItems;
