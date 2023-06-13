@@ -10,6 +10,7 @@ const ulEl = document.querySelector('#ul-el');
 btnHandle.addEventListener("click", function() {
     myLeads.push(inputEl.value);
     renderLeads()
+    inputEl.value = '';
 });
 
 
