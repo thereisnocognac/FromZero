@@ -1,6 +1,6 @@
-let btnHandle = document.querySelector('#input-btn');
 let myLeads = [];
 const inputEl = document.querySelector('#input-el');
+const btnHandle = document.querySelector('#input-btn');
 
 
 
