@@ -4,6 +4,11 @@ const inputEl = document.querySelector('#input-el');
 const btnHandle = document.querySelector('#input-btn');
 const ulEl = document.querySelector('#ul-el');
 
+
+let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") );
+
+
+
 localStorage.setItem('myLeads', 'www.example.com');
 
 
