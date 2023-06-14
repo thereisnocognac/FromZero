@@ -8,11 +8,12 @@ const ulEl = document.querySelector('#ul-el');
 let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") );
 
 if (leadsFromLocalStorage) {
-    myLeads = renderLeads()
+    myLeads = leadsFromLocalStorage;
+    myLeads = renderLeads();
 }
 
 
-localStorage.setItem('myLeads', 'www.example.com');
+// localStorage.setItem('myLeads', 'www.example.com');
 
 
 btnHandle.addEventListener("click", function() {
@@ -20,10 +21,6 @@ btnHandle.addEventListener("click", function() {
     inputEl.value = '';
     localStorage.setItem('myLeads', JSON.stringify(myLeads) );
     renderLeads()
-   
-    
-    console.log(localStorage.getItem('myLeads'))
-
 });
 
 
