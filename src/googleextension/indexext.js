@@ -7,6 +7,9 @@ const ulEl = document.querySelector('#ul-el');
 
 let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") );
 
+if (leadsFromLocalStorage) {
+    myLeads = renderLeads()
+}
 
 
 localStorage.setItem('myLeads', 'www.example.com');
