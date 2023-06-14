@@ -4,7 +4,7 @@ const inputEl = document.querySelector('#input-el');
 const btnHandle = document.querySelector('#input-btn');
 const ulEl = document.querySelector('#ul-el');
 
-
+localStorage.setItem('myLeads', 'www.example.com');
 
 
 btnHandle.addEventListener("click", function() {
