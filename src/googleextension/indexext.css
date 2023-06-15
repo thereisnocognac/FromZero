@@ -6,25 +6,33 @@ body {
 }
 
 input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
     border: 1px solid #5f9341;
-    padding: 2%;
+    margin-bottom: 4px;
 }
 
 button {
     background: #5f9341;
-    padding: 3% 4%;
-    text-transform: uppercase;
-    font-weight: bold;
     color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Style the button according to the provided design */
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
 }
 
 li {
-    list-style: none;
+    margin-top: 5px;
 }
 
 a {
     color: #5f9341;
-    text-decoration: none;
-    margin: 0;
-    font-weight: 600;
 }
