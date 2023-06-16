@@ -11,6 +11,11 @@ if (leadsFromLocalStorage) {
     render(myLeads)
 }
 
+function getFirst(arr) {
+    return arr[0];
+}
+
+
 function render(leads) {
     let listItems = ""
     for (let i = 0; i < leads.length; i++) {
