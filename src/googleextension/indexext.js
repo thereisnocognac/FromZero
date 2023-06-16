@@ -44,8 +44,7 @@ tabBtn.addEventListener("click", function () {
 
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 
-     let activeTab = tabs[0];
-     let activeTabId = activeTab.id;
+ 
 
   });
 
